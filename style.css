@@ -1,0 +1,14 @@
+body {
+    font-family:Open Sans,sans-serif;    
+}
+
+p {
+    color:#0099ff;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    background-color:#003c80;}
+input {
+    background-color:#0099ff;
+}
