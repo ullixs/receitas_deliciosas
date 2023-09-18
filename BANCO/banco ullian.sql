@@ -5,15 +5,9 @@ USE receitas;
 CREATE TABLE categoria (
     id INT NoT NULL AUTO_INCREMENT PRIMARY KEY,
     hashtag VARCHAR(100) NOT NULL,
-    salgado INT,
-    doce INT,
-    saudavel INT,
-    bebida INT,
-    especial INT,
-    recente INT
+    alimento INT 
 
-    
-);
+    );
 
 
 CREATE TABLE usuario (
