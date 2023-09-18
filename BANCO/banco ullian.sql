@@ -1,13 +1,16 @@
-CREATE DATABASE receitas;
+CREATE DATABASE receita;
 USE receitas;
 
+
 CREATE TABLE categoria (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    id INT NoT NULL AUTO_INCREMENT PRIMARY KEY,
     hashtag VARCHAR(100) NOT NULL,
     salgado INT,
     doce INT,
     picante INT
+    
 );
+
 
 CREATE TABLE usuario (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -16,16 +19,20 @@ CREATE TABLE usuario (
     email VARCHAR(100) NOT NULL,
     senha VARCHAR(100) NOT NULL,
     qtde_receitas INT
+
 );
+
 
 CREATE TABLE ingredientes (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     qtde_ingrediente INT NOT NULL,
     preco_ingrediente DECIMAL(5,2),
     nome_ingrediente VARCHAR(100)
+
 );
 
-CREATE TABLE receita (
+
+CREATE TABLE receitas (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     data_publicacao DATE NOT NULL,
     duracao INT NOT NULL,
@@ -39,4 +46,5 @@ CREATE TABLE receita (
     FOREIGN KEY (categoria_id) REFERENCES categoria(id),
     FOREIGN KEY (usuario_id) REFERENCES usuario(id),
     FOREIGN KEY (ingredientes_id) REFERENCES ingredientes(id)
+
 );
