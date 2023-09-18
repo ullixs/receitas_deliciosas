@@ -37,9 +37,7 @@ CREATE TABLE ingredientes (
 
 CREATE TABLE dificuldade (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    facil INT NOT NULL,
-    normal INT,
-    dificil INT
+    dificuldade VARCHAR(100)
 
 );
 
@@ -55,6 +53,7 @@ CREATE TABLE receitas (
     categoria_id INT,
     usuario_id INT,
     ingredientes_id INT,
+    dificuldade_id  INT,
     FOREIGN KEY (categoria_id) REFERENCES categoria(id),
     FOREIGN KEY (usuario_id) REFERENCES usuario(id),
     FOREIGN KEY (ingredientes_id) REFERENCES ingredientes(id),
