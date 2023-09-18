@@ -7,7 +7,11 @@ CREATE TABLE categoria (
     hashtag VARCHAR(100) NOT NULL,
     salgado INT,
     doce INT,
-    picante INT
+    saudavel INT,
+    bebida INT,
+    especial INT,
+    recente INT
+
     
 );
 
@@ -31,6 +35,14 @@ CREATE TABLE ingredientes (
 
 );
 
+CREATE TABLE dificuldade (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    facil INT NOT NULL,
+    normal INT,
+    dificil INT
+
+);
+
 
 CREATE TABLE receitas (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -45,6 +57,7 @@ CREATE TABLE receitas (
     ingredientes_id INT,
     FOREIGN KEY (categoria_id) REFERENCES categoria(id),
     FOREIGN KEY (usuario_id) REFERENCES usuario(id),
-    FOREIGN KEY (ingredientes_id) REFERENCES ingredientes(id)
+    FOREIGN KEY (ingredientes_id) REFERENCES ingredientes(id),
+    FOREIGN KEY (dificuldade_id) REFERENCES dificuldade(id)
 
 );
