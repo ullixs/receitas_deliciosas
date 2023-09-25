@@ -14,7 +14,7 @@ use receitas_deliciosas
         id_usuario_fk
     }
 
-        create table categoria {
+    create table categoria {
         id_categoria int not null auto_increment primary key,
         hashtag varchar(100),
         categoria int
@@ -24,7 +24,7 @@ use receitas_deliciosas
         id_categoria_fk
     }
     
-        create table dificuldade {
+    create table dificuldade {
         id_dificuldade int not null auto_increment primary key,
         dificuldade int not null
     }
@@ -41,7 +41,7 @@ use receitas_deliciosas
         data_publicação date not null
     }
     
-        create table ingrediente {
+    create table ingrediente {
         id_ingrediente int not null auto_increment primary key,
         nome_ingrediente varchar(100) not null,
         qtde_ingrediente int not null,
