@@ -1,20 +1,24 @@
 <?php
-include "lib.php"
-function mensagem($Mmsg){
- echo $msg." "
-.$nome"<br><hr>";
 
-}
-//calculo desconto
-function calcdesconto($valor,$desconto){
-    $totaldesconto = $valor*$desconto;
-    return $totaldesconto;
-}
+    include "lib.php"
 
-function calcvalorfinal($valor,$totaldesonto){
-$total = $valor - $totaldesconto;
-mensagen($total,"Total do produto")
+    function mensagem($msg){
+        echo $msg." "; 
+        .$nome"<br><hr>";
 
-}
+    }
+    //calculo desconto
+    function calcdesconto($valor,$desconto){
+        $totaldesconto = $valor*$desconto;
+        return $totaldesconto;
+    }
 
-calcvalorfinal(100,calcdesconto(100,0.10))
+    function calcvalorfinal($valor,$totaldesonto){
+        $total = $valor - $totaldesconto;
+        mensagen($total,"Total do produto")
+
+    }
+
+    calcvalorfinal(100,calcdesconto(100,0.10))
+
+?>
