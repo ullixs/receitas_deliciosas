@@ -1,4 +1,5 @@
-<main>
+    <link rel="stylesheet" href="visualinicial.css">
+    <main>
         <section id="inicio" class="hero">
             <h1>Bem-vindo ao Receitas Deliciosas</h1>
             <p style="font-size: 150%;">Descubra receitas deliciosas para cada ocasião.</p>
