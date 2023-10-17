@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
 }
 
 /* Estilos para as imagens */
@@ -31,15 +31,16 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color:#ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
 }
 
 .featured-recipes {
@@ -54,12 +55,14 @@ main {
     display: inline-block;
     margin: 0 20px;
     text-align: left;
+    background-color: #ffffff;
 }
 
 .recipe img {
     max-width: 100%;
     width: 300px;
     height: 300px;
+    border-radius: 12px;
 }
 
 .recipe h3 {
@@ -73,15 +76,17 @@ main {
 .recipe a {
     display: block;
     background-color: #33413d;
-    color: #fff;
+    color: #f3d1aa;
     padding: 5px 10px;
-    text-decoration: none;
+    border-radius: 12px;
     margin-top: 10px;
     text-align: center;
+    text-decoration: none
 }
 
 .recipe a:hover {
     background-color: #33413d;
+    text-decoration: none
 }
 
 footer {
