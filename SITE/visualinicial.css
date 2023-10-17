@@ -41,6 +41,8 @@ main {
     background-color:#ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 22px;
+    
+    
 }
 
 .featured-recipes {
@@ -63,6 +65,7 @@ main {
     width: 300px;
     height: 300px;
     border-radius: 12px;
+    border: 3px solid #33413d;
 }
 
 .recipe h3 {
@@ -75,18 +78,50 @@ main {
 
 .recipe a {
     display: block;
-    background-color: #33413d;
-    color: #f3d1aa;
+    background-color: tomato;
+    color: #ffffff;
     padding: 5px 10px;
     border-radius: 12px;
     margin-top: 10px;
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
+    font-family: unset;
+    border: 3px solid #33413d;
+    
 }
 
 .recipe a:hover {
-    background-color: #33413d;
-    text-decoration: none
+    background-color: #638133;
+    text-decoration: none;
+    
+}
+
+.active {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #fce2c5;
+    padding: 40px;
+    background-image: url('https://media.istockphoto.com/id/475511846/vector/kitchen-seamless-pattern-vector-background.jpg?s=612x612&w=0&k=20&c=inpW5Mc2MFyuc7PsMXVY49OUBU39EXekcCNe8xVeI_k=');
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    font-family:unset;
+    border:3px solid #33413d;
+}
+
+.featured-recipes {
+    text-align: center;
+}
+
+.recipe {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    border: 3px solid tomato;
+    box-shadow: 0 0 10px#13090049;
 }
 
 footer {
