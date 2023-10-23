@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -73,3 +74,14 @@
     </body>
 </html>
 
+=======
+<?php 
+
+include 'cabecalho.php';
+
+include 'main.php';
+
+include 'footer.php';
+
+?>
+>>>>>>> 34e5c726fdbd48b3a48f43000f3a839eb6d6fb25
