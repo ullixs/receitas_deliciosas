@@ -1,4 +1,4 @@
-    <link rel="stylesheet" href="visualinicial.css">
+    <link rel="stylesheet" href="Visual/visualinicial.css">
     <main>
         <section id="inicio" class="hero">
             <h1>Bem-vindo ao Receitas Deliciosas</h1>
