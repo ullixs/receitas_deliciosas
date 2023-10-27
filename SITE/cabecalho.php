@@ -113,4 +113,3 @@
               </nav>
     </header>
         
-        <img src="Imagens/RECEITAS DELICIOSAS.png" alt="Receitas Deliciosas" width="400">
