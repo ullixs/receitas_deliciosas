@@ -1,5 +1,5 @@
-create database receitas_deliciosas;
-use receitas_deliciosas;
+create database receitasdeliciosas;
+use receitasdeliciosas;
     
     create table receita (
         id_receita int not null auto_increment primary key,
@@ -26,7 +26,8 @@ use receitas_deliciosas;
     );
     create table receita_usuario (
         id_receita_fk int not null auto_increment primary key,
-        id_usuario_fk
+        id_usuario_fk int,
+        foreign key (id_receita_fk) references receita(id_receita)
     );
 
     create table categoria (
@@ -36,7 +37,8 @@ use receitas_deliciosas;
     );
     create table receita_categor (
         id_receita_fk int not null auto_increment primary key,
-        id_categoria_fk
+        id_categoria_fk int,
+        foreign key (id_receita_fk) references receita(id_receita)
     );
     
     create table dificul (
@@ -45,5 +47,6 @@ use receitas_deliciosas;
     );
     create table receita_dificuldade (
         id_receita_fk int not null auto_increment primary key,
-        id_dificuldade_fk
+        id_dificuldade_fk int,
+        foreign key (id_receita_fk) references receita(id_receita)
     );
