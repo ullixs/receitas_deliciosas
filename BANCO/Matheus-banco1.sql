@@ -41,7 +41,7 @@ use receitasdeliciosas;
         foreign key (id_receita_fk) references receita(id_receita)
     );
     
-    create table dificul (
+    create table dificuldade (
         id_dificuldade int not null auto_increment primary key,
         dificuldade int not null
     );
@@ -49,4 +49,5 @@ use receitasdeliciosas;
         id_receita_fk int not null auto_increment primary key,
         id_dificuldade_fk int,
         foreign key (id_receita_fk) references receita(id_receita)
+        foreign key (id_dificuldade_fk) references receita(id_receita)
     );
