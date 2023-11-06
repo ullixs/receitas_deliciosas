@@ -11,6 +11,5 @@ public function index(){
    include "senha.php";
    include "datadenascimento.php"
 }
-
-}
+ }
 ?>
