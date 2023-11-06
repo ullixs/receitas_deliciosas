@@ -111,3 +111,4 @@ use tabela;
     insert into tabela (datas, temperatura, humidade) values (01-01-2081, 25, 25);
     insert into tabela (datas, temperatura, humidade) values (01-01-2082, 11, 35);
 
+ insert into usuario (id_usuario, nome, email) values (1,"ullian","ulli@gmail.com");

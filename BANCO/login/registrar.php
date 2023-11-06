@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Registro :: Toolmmer</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = $_POST['user'];
@@ -20,14 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <title>Registro :: Toolmmer</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
