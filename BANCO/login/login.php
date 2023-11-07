@@ -1,47 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<title>Sistema de Login :: Toolmmer</title>
-		<meta charset="UTF-8" />
-		<!-- Estilos da Index.php -->
-		<style type="text/css">
-			body{
-				background: linear-gradient(45deg, #f0f9ff 10%, #cbebff 47%, #a1dbff 100%);
-			}
-			div.global{
-				width: 40%;
-				height: auto;
-				background-color: #fff;
-				border: 1px solid #606060;
-				padding: 50px;
-				box-shadow: 0px 0px 10px #000;
-				margin-top: 10%;
-				/* Centralizando a div */
-				margin-left: auto;
-				margin-right: auto;
-			}
-			input[type='text'], input[type='password']{
-				width: 300px;
-				height: 25px;
-				border: solid 1px #606060;
-				border-radius: 5px;
-			}
-			input[type='password']{
-				margin-left: 10px;
-			}
-			input[type='submit']{
-				width: 150px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="global">
-			<!-- Formulário de Login -->
-			<form method="post" action="autenticado.php">
-				<label>Usuário: <input type="text" name="user" /></label><br /><br />
-				<label>Senha: <input type="password" name="pass" /></label><br /><br />
-				<input type="submit" name="submit" value="Logar!" />
-			</form>
-		</div>
-	</body>
+<head>
+    <title>Sistema de Login :: Toolmmer</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Login de Usuário</div>
+                <div class="card-body">
+                    <form method="post" action="autenticado.php">
+                        <div class="form-group">
+                            <label for="user">Usuário:</label>
+                            <input type="text" class="form-control" id="user" name="user" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Senha:</label>
+                            <input type="password" class="form-control" id="pass" name="pass" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
+
+<?php
+// Inicia a sessão
+session_start();
+
+// Verifica se o método é POST
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $user = $_POST['user'];
+    $pass = $_POST['pass'];
+
+    if (!empty($user) && !empty($pass)) {
+        // Conecta com o banco de dados usando PDO
+        $dsn = "mysql:host=localhost;dbname=receitasdeliciosas";
+        $username = "root";
+        $password = "";
+        $pdo = new PDO($dsn, $username, $password);
+
+        // Prepara a consulta SQL para verificar os dados do usuário
+        $sql = "SELECT * FROM usuario WHERE email = :email";
+        $stmt = $pdo->prepare($sql);
+
+        // Executa a consulta com o valor do usuário
+        $stmt->execute(['email' => $user]);
+
+        // Verifica se a consulta retornou algum resultado
+        if ($stmt->rowCount() == 1) {
+            // Obtém os dados do usuário em um array associativo
+            $userData = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            // Verifica a senha usando password_verify
+            if (password_verify($pass, $userData['senha'])) {
+                // Armazena os dados do usuário na sessão
+                $_SESSION['user'] = $userData;
+
+                // Redireciona o usuário para a página restrita
+                header("Location: restrita.php");
+            } else {
+                // Redireciona o usuário para a página de login com uma mensagem de erro
+                header("Location: login.php?erro=1");
+            }
+        } else {
+            // Redireciona o usuário para a página de login com uma mensagem de erro
+            header("Location: login.php?erro=1");
+        }
+    } else {
+        // Redireciona o usuário para a página de login com uma mensagem de erro
+        header("Location: login.php?erro=2");
+    }
+}
+?>
+
