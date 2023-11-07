@@ -1,9 +1,9 @@
 <?php 
 
-include 'cabecalho.php';
+include 'Início/cabecalho.php';
 
-include 'main.php';
+include 'Início/main.php';
 
-include 'footer.php';
+include 'Início/footer.php';
 
 ?>
