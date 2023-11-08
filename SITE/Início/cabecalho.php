@@ -71,9 +71,9 @@
                     </form>
                     <nav class="navbar" style="background-color:#33413d;">
                         <form class="container-fluid justify-content-start">
-                            <button class="btn btn-success me-2" type="button">Login</button>
-                            
-                            <button class="btn btn-outline-success me-2" type="button">Registre-se</button>
+                        <button class="btn btn-success me-2" type="button"><a href='login/login.php'>login</a> </button>
+
+                       <button class="btn btn-success me-2" type="button"><a href='login/registrar.php'>Resgistrar</a> </button>
                         </form>
                       </nav>
                   </div>
