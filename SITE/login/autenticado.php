@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    vc está logado
+    vc está logado.
 </body>
 </html>
