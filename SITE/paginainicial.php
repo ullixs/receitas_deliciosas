@@ -2,7 +2,7 @@
 
 include 'cabecalho.php';
 
-include 'Main.php';
+include 'main.php';
 
 include 'footer.php';
 
