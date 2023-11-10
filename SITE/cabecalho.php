@@ -42,16 +42,16 @@
                   <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        <a class="nav-link active" aria-current="page" href="paginainicial.php">Início</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Receitas</a>
+                        <a class="nav-link" href="receitas.php">Receitas</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="sobrenos.php">Sobre nós</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Usuário</a>
+                        <a class="nav-link" href="usuario.php">Usuário</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
