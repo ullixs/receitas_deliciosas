@@ -48,7 +48,7 @@
                         <a class="nav-link" href="#">Receitas</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nós</a>
+                        <a class="nav-link" href="sobrenos.php">Sobre nós</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Usuário</a>
