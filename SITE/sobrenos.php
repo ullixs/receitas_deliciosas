@@ -47,6 +47,9 @@ margin-left: 30px;
     <ul>
         <li><a href="curriculo ullian.php">Ullian dos Santos</a></li>
         <li><a href="CurriculoMatheus.php">Matheus Rocha</a></li>
+
+    <br> 
+  <li><a href="javascript: history.go(-1)"><-VOLTAR-></a></li>
       </ul>
       
       
