@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Currículo</title>
 </head>
-
-<!--BODY-->
-<body style="background-color:black;color:white;font-family:;">
-
 <!--TITULO-->
     <b><h2>Matheus de Jesus Rocha</h2></b><hr> <br>
 
