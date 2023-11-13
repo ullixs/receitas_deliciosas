@@ -74,7 +74,9 @@
 
     <p>Inglês – Intermediário</p> <br>
 
-    <li> <a href="index.html" > Voltar para a Página Inicial</a></li>
+
+
+    <li><a href="javascript: history.go(-1)">Voltar para o sobre nós</a></li>
 
 <!--FIM-->
 </body>
