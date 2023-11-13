@@ -1,3 +1,3 @@
 <?php 
-include 'cabecalho.php';
+include 'cabecalho_receitas.php';
 ?>
