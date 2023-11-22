@@ -1,0 +1,31 @@
+/* Adapte o estilo conforme necessário */
+body {
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    margin-top: 40px;
+}
+
+/* Estilo opcional para o vídeo ocupar a altura total do contêiner */
+.col-md-6 iframe {
+    height: 200%;
+}
+
+/* Estilo para a lista de ingredientes e modo de preparo */
+.col-md-6 ul, .col-md-6 ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.preparo {
+    margin-top: 20px;
+}
+
+/* Estilo para a barra de rolagem no modo de preparo */
+.preparo {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Adapte os estilos conforme necessário para atender às suas preferências */
