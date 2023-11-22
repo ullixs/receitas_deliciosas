@@ -5,7 +5,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="styles.css" />
     <title>Curriculo ullian</title>
-    <body style="background-color:black;color:white;font-family:;"></body>
   </head>
   <body style="font-family: calibri">
     <h1>Ullian Dos Santos Silva</h1>
@@ -53,6 +52,7 @@
     <h2>Idiomas</h2>
     <p>Espanhol – Médio.</p>
 
-    <li><a href="index.html"> Voltar para a Página Inicial</a></li>
+  <li><a href="javascript: history.go(-1)">Voltar para o sobre nós</a></li>
+
   </body>
 </html>

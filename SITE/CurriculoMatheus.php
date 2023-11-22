@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Currículo</title>
 </head>
-
-<!--BODY-->
-<body style="background-color:black;color:white;font-family:;">
-
 <!--TITULO-->
     <b><h2>Matheus de Jesus Rocha</h2></b><hr> <br>
 
@@ -78,7 +74,9 @@
 
     <p>Inglês – Intermediário</p> <br>
 
-    <li> <a href="index.html" > Voltar para a Página Inicial</a></li>
+
+
+    <li><a href="javascript: history.go(-1)">Voltar para o sobre nós</a></li>
 
 <!--FIM-->
 </body>
