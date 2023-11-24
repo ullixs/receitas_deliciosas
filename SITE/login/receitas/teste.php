@@ -13,14 +13,19 @@
         <div class="row">
             <div class="col-md-6">
                 <!-- Vídeo do YouTube incorporado -->
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/rqSr_zWlQBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/F8njuobsG3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <!-- Texto dos ingredientes e modo de preparo -->
                 <h2>Ingredientes:</h2>
                 <ul>
-                    <li>Ingrediente 1</li>
-                    <li>Ingrediente 2</li>
+                    <li>1 Cebola</li>
+                    <li>1 Colher (Chá bem Cheia) de Sal</li>
+                    <li>1 Colher (Chá) de Orégano </li>
+                    <li> 1 Pitada Generosa de Pimenta do Reino (A Gosto) </li>
+                    <li>1 Colher (Chá) de Páprica Doce </li>
+                    <li> 4 Laranjas </li>
+                    <li>700g de Carne</li> 
                     <!-- Adicione mais ingredientes conforme necessário -->
                 </ul>
                 
