@@ -8,22 +8,50 @@
     <title>Sua Receita</title>
 </head>
 <body>
-    <?php
-    include 'cabecalhoteste.php';
+    <?php include 'cabecalhoteste.php'; ?>
 
-?>
     <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <!-- Vídeo do YouTube incorporado -->
+                <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/F8njuobsG3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-md-6">
-                <!-- Vídeo do YouTube incorporado -->
-                <iframe width="100%" height="385" src="https://www.youtube.com/embed/F8njuobsG3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-                    <div class="col-md-6">
+                <!-- Coluna de Ingredientes -->
+                <div class="recipe-container">
+                    <h2>Ingredientes:</h2>
+                    <ul>
+                    <li>1 Cebola</li>
+                    <li>1 Colher (Chá bem Cheia) de Sal</li>
+                    <li>1 Colher (Chá) de Orégano </li>
+                    <li> 1 Pitada Generosa de Pimenta do Reino (A Gosto) </li>
+                    <li>1 Colher (Chá) de Páprica Doce </li>
+                    <li> 4 Laranjas </li>
+                    <li>700g de Carne</li> 
                     </ul>
-                
-                <h2>Modo de Preparo:</h2>
-                
-               <li> Em uma frigideira, coloque um fio de azeite e adicione a carne moída, refogue até secar a água. </li>
+                    <h4>Molho Branco:</h4>
+                    <ul>
+                    <li> 2 Colheres (Sopa) de Manteiga sem Sal </li>
+<li> 2 Colheres (Sopa) de Farinha de Trigo </li>
+<li> 1 Litro de Leite </li>
+<li> 1 e ½ Colher (Chá) de Sal </li>
+<li> 1 Pitada Generosa de Pimenta do Reino </li> 
+<li> 1 Pitada de Noz Moscada </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <!-- Coluna de Modo de Preparo -->
+                <div class="recipe-container">
+                    <h2>Modo de Preparo:</h2>
+                    <ol>
+                    <li> Em uma frigideira, coloque um fio de azeite e adicione a carne moída, refogue até secar a água. </li>
 
 <li>Tempere com o sal, a pimenta do reino e o orégano, misture e acrescente o molho de tomate,  misture e deixe cozinhar por 3 minutos.</li>
 <li> Reserve ao lado. </li>
@@ -36,35 +64,8 @@
 <li> Adicione +2 pacotes do miojo, adicione o restante da carne moída, +150g de queijo ralado e espalhe. </li>
 <li> Leve ao forno pré-aquecido a 180 graus e deixe assar por 30 minutos. </li>
 <li> Sirva-se.</li>
+                    </ol>
                 </div>
-
-                </div>
-            <div class="col-md-6">
-                <!-- Texto dos ingredientes e modo de preparo -->
-                <h2>Ingredientes:</h2>
-                <ul>
-                    <li>1 Cebola</li>
-                    <li>1 Colher (Chá bem Cheia) de Sal</li>
-                    <li>1 Colher (Chá) de Orégano </li>
-                    <li> 1 Pitada Generosa de Pimenta do Reino (A Gosto) </li>
-                    <li>1 Colher (Chá) de Páprica Doce </li>
-                    <li> 4 Laranjas </li>
-                    <li>700g de Carne</li> 
-                <ul>  
-                    <br> 
-                   <h4> Molho Branco </h4>
-
-<li> 2 Colheres (Sopa) de Manteiga sem Sal </li>
-<li> 2 Colheres (Sopa) de Farinha de Trigo </li>
-<li> 1 Litro de Leite </li>
-<li> 1 e ½ Colher (Chá) de Sal </li>
-<li> 1 Pitada Generosa de Pimenta do Reino </li> 
-<li> 1 Pitada de Noz Moscada </li>
-                    <!-- Adicione mais ingredientes conforme necessário -->
-                </ul>
-
-
-                <!--    dicione mais passos conforme necessário -->                    
             </div>
         </div>
     </div>

@@ -1,20 +1,5 @@
 /* Seu CSS existente... */
 
-.scrollable-text {
-    max-height: 300px; /* Ajuste a altura máxima conforme necessário */
-    overflow-y: auto;
-}
-
-body {
-    background-color: #f8f9fa;
-    font-family: 'Arial', sans-serif;
-    margin-top: 60px;
-}
-
-.container {
-    margin-top: 70px;
-}
-
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* Mantém uma proporção 16:9 */
@@ -37,31 +22,16 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 h2, h4 {
     color: #343a40;
 }
 
-ul, ol {
-    list-style-type: none;
-    padding: 0;
+
+.recipe-container ol li {
+    margin-bottom: 10px; /* Altere o valor conforme necessário */
 }
 
-.recipe-container {
-    max-height: 400px;
-    overflow-y: auto;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-.col-md-6 {
-    margin-bottom: 20px; /* Ajusta o espaço entre as colunas */
-}

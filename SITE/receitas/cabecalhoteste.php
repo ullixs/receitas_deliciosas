@@ -42,16 +42,16 @@
                   <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Início</a>
+                        <a class="nav-link active" aria-current="page" href="../index.php">Início</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="receitas.php">Receitas</a>
+                        <a class="nav-link" href="../receitas.php">Receitas</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="sobrenos.php">Sobre nós</a>
+                        <a class="nav-link" href="../sobrenos.php">Sobre nós</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="usuario.php">Usuário</a>
+                        <a class="nav-link" href="../usuario.php">Usuário</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,9 +71,9 @@
                     </form>
                     <nav class="navbar" style="background-color:#33413d;">
                         <form class="container-fluid justify-content-start">
-                        <button class="btn btn-success me-2" type="button"><a href='Login/login.php'>Login</a></button>
+                        <button class="btn btn-success me-2" type="button"><a href='..Login/login.php'>Login</a></button>
 
-                       <button class="btn btn-success me-2" type="button"><a href='Login/registrar.php'>Registro</a></button>
+                       <button class="btn btn-success me-2" type="button"><a href='..Login/registrar.php'>Registro</a></button>
                         </form>
                       </nav>
                   </div>

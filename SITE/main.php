@@ -17,8 +17,9 @@
                 <img src="Imagens/lasanha.jpg" alt="Lasanha">
                 <h3>Lasanha de Carne</h3>
                 <p>Uma lasanha de carne incrível.</p>
-                <b><a href="lasanha.html">Ver Receita</a></b>
+                <b><a href="../SITE/receitas/teste11.php">Ver Receita</a></b>
             </div>
             <!-- Adicione mais receitas em destaque aqui -->
         </section>
     </main>
+
