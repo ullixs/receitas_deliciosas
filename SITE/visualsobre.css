@@ -56,3 +56,17 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  
+  main {
+    max-width: 700px; /* Ajuste o valor conforme necessário */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+}
+
+@media (max-width: 1200px) and (min-zoom: 0.9) and (max-zoom: 0.9) {
+  /* Estilos específicos para 90% de zoom */
+}
+

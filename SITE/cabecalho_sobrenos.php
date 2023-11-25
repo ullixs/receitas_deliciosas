@@ -12,20 +12,48 @@
     <link rel="stylesheet" href="Visual/visualinicial.css">
 
     <style>
+    /* Estilos CSS personalizados aqui */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Adicionado para evitar a barra de rolagem horizontal */
+    }
 
-        /* Estilos CSS personalizados aqui */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
-    </style>
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0; /* Removido o espaçamento interno */
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 10px; /* Reduzi a margem direita */
+    }
+
+    .navbar-brand img {
+        max-width: 100%; /* Garante que o logo não ultrapasse a largura da barra */
+        height: auto;
+    }
+
+    .navbar {
+        padding: 0; /* Removido o espaçamento interno da barra */
+    }
+
+    .navbar-toggler {
+        padding: 10px; /* Adicionado espaço interno ao botão de alternância */
+    }
+
+    /* Adicionado estilo para o contêiner flexível */
+    .login-register-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .login-register-container button {
+        margin-left: 10px; /* Adicionada margem entre os botões */
+    }
+</style>
     </head>
 
     <body>
@@ -70,12 +98,13 @@
                       <button class="btn btn-outline-success" type="submit">Pesquisa</button>
                     </form>
                     <nav class="navbar" style="background-color:#33413d;">
-                        <form class="container-fluid justify-content-start">
-                        <button class="btn btn-success me-2" type="button"><a href='Login/login.php'>Login</a></button>
-
-                       <button class="btn btn-success me-2" type="button"><a href='Login/registrar.php'>Registro</a></button>
-                        </form>
-                      </nav>
+    <div class="container-fluid justify-content-start">
+        <div class="login-register-container">
+            <button class="btn btn-success me-2"><a href='Login/login.php'>Login</a></button>
+            <button class="btn btn-success me-2"><a href='Login/registrar.php'>Registro</a></button>
+        </div>
+    </div>
+</nav>
                   </div>
                 </div>
               </nav>

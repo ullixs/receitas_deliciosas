@@ -9,18 +9,19 @@ body {
 header {
   background-color: #f2f2f2;
   text-align: center;
-  padding: 20px;
+  padding: 10px; /* Reduzindo o espaçamento interno */
 }
 
 header h1 {
   margin: 0;
   color: #333;
+  font-size: 0.8em; /* Reduzindo o tamanho da fonte */
 }
 
 /* Estilos para as seções */
 section {
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px; /* Reduzindo a margem */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -36,25 +37,24 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 10px;
+  margin: 0 5px; /* Reduzindo a margem */
 }
 
 nav ul li a {
   text-decoration: none;
   color: #fff;
   transition: color 0.3s;
-}
-
-nav ul li a:hover {
-  color: #f2f2f2;
+  font-size: 0.7em; /* Reduzindo o tamanho da fonte */
 }
 
 /* Estilos para os títulos das seções */
 h2 {
   color: #333;
+  font-size: 0.9em; /* Reduzindo o tamanho da fonte */
 }
 
 /* Estilos para o texto das seções */
 p {
   color: #666;
+  font-size: 0.8em; /* Reduzindo o tamanho da fonte */
 }
