@@ -12,7 +12,7 @@
 
 
 <div class="container-fluid">
-    <!-- Seção onde o nome da receita é exibido -->
+  
     <div class="row justify-content-md-center">
         <div class="col-md-8">
             <h1 class="recipe-title">Peito de Frango com Molho</h1>
@@ -22,14 +22,13 @@
     <div class="container-fluid">
         <div class="row justify-content-md-center">
             <div class="col-md-8">
-                <!-- Vídeo do YouTube incorporado -->
+ 
                 <div class="video-container">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/yjU6wONgEL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
 
-        <!-- Seção onde as receitas são incluídas -->
         <div class="row">
             <?php
             $receita2 = 'receita2.php';
