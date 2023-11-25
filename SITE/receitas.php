@@ -16,12 +16,14 @@
     <div class="container-fluid">
 
         <!-- Seção onde as fotos e nomes das receitas são exibidos -->
-        <div class="row justify-content-md-center">
+        <div class="row">
             <?php
             // Exemplo com duas receitas, adicione conforme necessário
             $receitas = array(
                 array('Lasanha de Miojo', 'imagens/lasanha.png', 'receitas/lasanha.php'),
-                array('Peito de Frango com Molho', 'imagens/frango.png', 'receitas/frangomolho.php')
+                array('Peito de Frango com Molho', 'imagens/frango.png', 'receitas/frangomolho.php'),
+                array('Cheesecake', 'imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
+                // Adicione mais receitas conforme necessário
             );
 
             foreach ($receitas as $receita) {
@@ -39,3 +41,4 @@
 </body>
 
 </html>
+
