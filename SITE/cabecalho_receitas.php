@@ -98,13 +98,11 @@
                       <button class="btn btn-outline-success" type="submit">Pesquisa</button>
                     </form>
                     <nav class="navbar" style="background-color:#33413d;">
-                        <form class="container-fluid justify-content-start">
-                        <button class="btn btn-success me-2" type="button"><a href='Login/login.php'>Login</a></button>
-
-                       <button class="btn btn-success me-2" type="button"><a href='Login/registrar.php'>Registro</a></button>
-                        </form>
-                      </nav>
-                  </div>
-                </div>
-              </nav>
+    <div class="container-fluid justify-content-start">
+        <div class="login-register-container">
+            <button class="btn btn-success me-2"><a href='Login/login.php'>Login</a></button>
+            <button class="btn btn-success me-2"><a href='Login/registrar.php'>Registro</a></button>
+        </div>
+    </div>
+</nav>
     </header>
