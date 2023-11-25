@@ -12,7 +12,7 @@
     <?php include 'cabecalho_receitas.php'; ?>
 
     <br>
-    
+
     <div class="container-fluid">
 
         <!-- Seção onde as fotos e nomes das receitas são exibidos -->
@@ -20,8 +20,8 @@
             <?php
             // Exemplo com duas receitas, adicione conforme necessário
             $receitas = array(
-                array('Lasanha', 'imagens/lasanha.png', 'receitas/lasanha.php'),
-                array('Frango', 'imagens/frango.png', 'receitas/frangomolho.php')
+                array('Lasanha de Miojo', 'imagens/lasanha.png', 'receitas/lasanha.php'),
+                array('Peito de Frango com Molho', 'imagens/frango.png', 'receitas/frangomolho.php')
             );
 
             foreach ($receitas as $receita) {
