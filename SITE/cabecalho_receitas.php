@@ -12,20 +12,48 @@
     <link rel="stylesheet" href="Visual/visualinicial.css">
 
     <style>
+    /* Estilos CSS personalizados aqui */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Adicionado para evitar a barra de rolagem horizontal */
+    }
 
-        /* Estilos CSS personalizados aqui */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
-    </style>
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0; /* Removido o espaçamento interno */
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 10px; /* Reduzi a margem direita */
+    }
+
+    .navbar-brand img {
+        max-width: 100%; /* Garante que o logo não ultrapasse a largura da barra */
+        height: auto;
+    }
+
+    .navbar {
+        padding: 0; /* Removido o espaçamento interno da barra */
+    }
+
+    .navbar-toggler {
+        padding: 10px; /* Adicionado espaço interno ao botão de alternância */
+    }
+
+    /* Adicionado estilo para o contêiner flexível */
+    .login-register-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .login-register-container button {
+        margin-left: 10px; /* Adicionada margem entre os botões */
+    }
+</style>
     </head>
 
     <body>
