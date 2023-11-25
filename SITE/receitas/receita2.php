@@ -1,6 +1,6 @@
-<!-- Conteúdo de receitas/receita1.php -->
+
 <div class="col-md-6">
-    <!-- Coluna de Ingredientes -->
+
     <div class="recipe-container">
         <h2>Ingredientes:</h2>
         <ul>
@@ -25,7 +25,7 @@
 </div>
 
 <div class="col-md-6">
-    <!-- Coluna de Modo de Preparo -->
+
     <div class="recipe-container">
         <h2>Modo de Preparo:</h2>
         <ol>
