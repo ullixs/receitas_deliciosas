@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <!-- Vídeo do YouTube incorporado -->
+   
         <div class="row justify-content-md-center">
             <div class="col-md-8">
                 <div class="video-container">
@@ -27,14 +27,14 @@
             </div>
         </div>
 
-        <!-- Seção onde as receitas são incluídas -->
+ 
         <div class="row">
             <?php
             $receita5 = 'receita5.php';
 
-            // Inclua o conteúdo da receita
+           
             include $receita5;
-            echo '<hr>'; // Adiciona uma linha horizontal entre as receitas
+            echo '<hr>'; 
             ?>
         </div>
     </div>
