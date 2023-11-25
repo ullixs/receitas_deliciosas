@@ -61,6 +61,8 @@
         </script>
         
         <header>
+        <div class="navbar">
+ 
             <nav class="navbar navbar-expand-lg" style="background-color: #33413d;" data-bs-theme="dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="Imagens/RECEITAS DELICIOSAS.png" alt="Receitas Deliciosas" width="400"></a>
@@ -95,13 +97,15 @@
                     </ul>
                     <form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Pesquisa</button>
+                      <button class="btn navbar-btn register-btn" type="submit">Pesquisa</button>
                     </form>
                     <nav class="navbar" style="background-color:#33413d;">
     <div class="container-fluid justify-content-start">
         <div class="login-register-container">
-            <button class="btn btn-success me-2"><a href='Login/login.php'>Login</a></button>
-            <button class="btn btn-success me-2"><a href='Login/registrar.php'>Registro</a></button>
+        <button class="btn navbar-btn login-btn" type="button"><a href='Login/login.php'>Login</a></button>
+<button class="btn navbar-btn register-btn" type="button"><a href='Login/registrar.php'>Registro</a></button>
+
+
         </div>
     </div>
 </nav>
