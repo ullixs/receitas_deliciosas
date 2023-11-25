@@ -12,7 +12,7 @@
  
 
     <div class="container-fluid">
-        <!-- Seção onde o nome da receita é exibido -->
+   
         <div class="row justify-content-md-center">
             <div class="col-md-8">
                 <h1 class="recipe-title">Lasanha de Miojo</h1>
@@ -22,7 +22,7 @@
     <div class="container-fluid">
         <div class="row justify-content-md-center">
             <div class="col-md-8">
-                <!-- Vídeo do YouTube incorporado -->
+  
                 <div class="video-container">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/F8njuobsG3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
