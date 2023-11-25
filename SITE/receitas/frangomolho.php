@@ -35,7 +35,7 @@
             $receita2 = 'receita2.php';
 
             include $receita2;
-            echo '<hr>'; // Adiciona uma linha horizontal entre as receitas
+            echo '<hr>'; 
             ?>
         </div>
     </div>
