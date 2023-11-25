@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <!-- Vídeo do YouTube incorporado -->
+
         <div class="row justify-content-md-center">
             <div class="col-md-8">
                 <div class="video-container">
@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <!-- Seção onde as receitas são incluídas -->
+   
         <div class="row">
             <?php
             $receita4 = 'receita4.php';
