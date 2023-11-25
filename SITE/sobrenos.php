@@ -34,7 +34,7 @@
         <div class="section">
             <h2>Conheça a Equipe</h2>
             <div class="team-buttons">
-                <button onclick="window.location.href='curriculo_ullian.php'" class="btn">Ullian dos Santos</button>
+                <button onclick="window.location.href='curriculoullian.php'" class="btn">Ullian dos Santos</button>
                 <button onclick="window.location.href='CurriculoMatheus.php'" class="btn">Matheus Rocha</button>
             </div>
         </div>

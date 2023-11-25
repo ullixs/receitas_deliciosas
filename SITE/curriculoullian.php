@@ -1,12 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-  <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="styles.css" />
-    <title>Curriculo ullian</title>
-  </head>
-  <body style="font-family: calibri">
+
+<!--HEAD-->
+<head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <h1>Ullian Dos Santos Silva</h1>
     <p>
       R. Marquesa De Santos , 294 - Eldorado / Diadema – SP<br />
