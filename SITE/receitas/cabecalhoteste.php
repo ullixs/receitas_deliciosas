@@ -10,6 +10,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="Visual/visualinicial.css">
+    <link rel="stylesheet" href="visual.css">
 
     <style>
 
@@ -71,9 +72,9 @@
                     </form>
                     <nav class="navbar" style="background-color:#33413d;">
                         <form class="container-fluid justify-content-start">
-                        <button class="btn btn-success me-2" type="button"><a href='..Login/login.php'>Login</a></button>
+                        <button class="btn btn-success me-2" type="button"><a href='../Login/login.php'>Login</a></button>
 
-                       <button class="btn btn-success me-2" type="button"><a href='..Login/registrar.php'>Registro</a></button>
+                       <button class="btn btn-success me-2" type="button"><a href='../Login/registrar.php'>Registro</a></button>
                         </form>
                       </nav>
                   </div>
