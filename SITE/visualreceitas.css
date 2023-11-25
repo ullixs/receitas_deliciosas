@@ -1,0 +1,41 @@
+/* Ajustes na margem superior para criar espaço entre a foto e a navbar */
+.recipe-container {
+    margin-top: 20px;
+}
+
+/* Estilo para a receita */
+.recipe {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #33413d; /* Aumentando a largura da borda */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de escala no hover para destacar a receita */
+.recipe:hover {
+    transform: scale(1.05);
+}
+
+/* Ajustes na imagem da receita */
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #33413d;
+}
+
+/* Centralizando o título da receita */
+.recipe-name {
+    text-align: center;
+    font-weight: bold;
+    color: #343a40;
+    margin-top: 10px;
+}
+
+/* Remover sublinhado padrão dos links */
+.recipe-link {
+    text-decoration: none;
+}
