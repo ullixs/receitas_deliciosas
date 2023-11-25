@@ -9,6 +9,15 @@
 </head>
 <body>
     <?php include 'cabecalhoteste.php'; ?>
+ 
+
+    <div class="container-fluid">
+        <!-- Seção onde o nome da receita é exibido -->
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <h1 class="recipe-title">Lasanha de Miojo</h1>
+            </div>
+        </div>
 
     <div class="container-fluid">
         <div class="row justify-content-md-center">

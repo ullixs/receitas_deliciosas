@@ -11,11 +11,18 @@
     <?php include 'cabecalhoteste.php'; ?>
 
     <div class="container-fluid">
+        <!-- Seção onde o nome da receita é exibido -->
         <div class="row justify-content-md-center">
             <div class="col-md-8">
-                <!-- Vídeo do YouTube incorporado -->
+                <h1 class="recipe-title">nome da receita</h1>
+            </div>
+        </div>
+
+        <!-- Vídeo do YouTube incorporado -->
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
                 <div class="video-container">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/F8njuobsG3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/yjU6wONgEL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -23,9 +30,10 @@
         <!-- Seção onde as receitas são incluídas -->
         <div class="row">
             <?php
-            $receita1 = 'receita1.php';
+            $receita2 = 'receita2.php';
 
-            include $receita1;
+            // Inclua o conteúdo da receita
+            include $receita2;
             echo '<hr>'; // Adiciona uma linha horizontal entre as receitas
             ?>
         </div>

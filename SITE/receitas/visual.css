@@ -1,5 +1,14 @@
 /* Seu CSS existente... */
 
+.recipe-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adiciona uma margem inferior */
+    color: #343a40; /* Cor do texto da receita */
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* Mantém uma proporção 16:9 */
@@ -21,7 +30,6 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
     max-height: 400px;
     overflow-y: auto;
 }
@@ -30,8 +38,51 @@ h2, h4 {
     color: #343a40;
 }
 
-
 .recipe-container ol li {
     margin-bottom: 10px; /* Altere o valor conforme necessário */
 }
 
+/* Seu CSS existente... */
+
+.recipe-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adiciona uma margem inferior */
+    color: #343a40; /* Cor do texto da receita */
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Mantém uma proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px; /* Adiciona margem superior ao vídeo */
+    margin-bottom: 20px; /* Adiciona margem inferior ao vídeo */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.recipe-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+h2, h4 {
+    color: #343a40;
+}
+
+.recipe-container ol li {
+    margin-bottom: 10px; /* Altere o valor conforme necessário */
+}
