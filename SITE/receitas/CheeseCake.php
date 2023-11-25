@@ -32,9 +32,9 @@
             <?php
             $receita4 = 'receita4.php';
 
-            // Inclua o conteúdo da receita
+   
             include $receita4;
-            echo '<hr>'; // Adiciona uma linha horizontal entre as receitas
+            echo '<hr>'; 
             ?>
         </div>
     </div>
