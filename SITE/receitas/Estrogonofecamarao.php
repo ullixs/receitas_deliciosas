@@ -29,13 +29,13 @@
             </div>
         </div>
 
-        <!-- Seção onde as receitas são incluídas -->
+   
         <div class="row">
             <?php
             $receita3 = 'receita3.php';
 
             include $receita3;
-            echo '<hr>'; // Adiciona uma linha horizontal entre as receitas
+            echo '<hr>'; 
             ?>
         </div>
     </div>
