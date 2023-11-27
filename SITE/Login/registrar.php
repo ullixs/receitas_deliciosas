@@ -1,3 +1,8 @@
+
+<php?
+include 'sdadsa'
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,11 +27,10 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            padding: 40px;
+            padding: 80px;
             border-radius: 15px;
             color: #fff;
-            width: 80%;
-            max-width: 400px;
+      
         }
 
         input {
@@ -96,7 +100,14 @@
                     // Executa a consulta com os valores do formulário
                     $stmt->execute(['email' => $user, 'senha' => $pass]);
 
-                    echo '<div class="alert alert-success message">Usuário registrado com sucesso!</div>';
+                    echo '<div class="alert alert-success message" id="success-message">Usuário registrado com sucesso!</div>';
+
+                    // Adiciona script JavaScript para redirecionamento após 3 segundos
+                    echo '<script>
+                            setTimeout(function(){
+                                window.location.href = "login.php";
+                            }, 3000);
+                          </script>';
                 } else {
                     echo '<div class="alert alert-danger message">Por favor, preencha todos os campos!</div>';
                 }
@@ -106,4 +117,3 @@
     </div>
 </body>
 </html>
-
