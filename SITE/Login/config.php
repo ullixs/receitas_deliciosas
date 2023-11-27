@@ -1,6 +1,6 @@
 <?php
     function getconnection(){
-    $dns = 'mysql:host=localhost;dbname=receitasdeliciosas'
+    $dns = 'mysql:host=192.168.8.6;dbname=receitasdeliciosas'
     $username = 'receitasdeliciosas';
     $password = 'amd123';
  try{
