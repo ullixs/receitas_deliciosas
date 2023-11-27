@@ -17,12 +17,12 @@ use receitasdeliciosas;
     );
 
     CREATE TABLE usuario (
-        id_usuario INT NOT NULL auto_increment PRIMARY KEY,
-        nome VARCHAR(100) NOT NULL,
-        email VARCHAR(100) NOT NULL,
-        senha VARCHAR(100) NOT NULL,
-        data_nascimento date NOT NULL,
-        qtde_receita INT NOT NULL
+        id_usuario INt  auto_increment PRIMARY KEY,
+        nome VARCHAR(100)  ,
+        email VARCHAR(100) NOT NULL ,
+        senha VARCHAR(100) NOT NULL  ,
+        data_nascimento date ,
+        qtde_receita INT 
     );
     CREATE TABLE receita_usuario (
         id_receita_fk INT NOT NULL auto_increment PRIMARY KEY,
