@@ -11,51 +11,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="Visual/visualinicial.css">
 
-<!-- ... (seu código existente) ... -->
+    <style>
+        /* Estilos CSS personalizados aqui */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Adicionado para evitar a barra de rolagem horizontal */
+        }
 
-<style>
-    /* Estilos CSS personalizados aqui */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; /* Adicionado para evitar a barra de rolagem horizontal */
-    }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0; /* Removido o espaçamento interno */
+        }
 
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0; /* Removido o espaçamento interno */
-    }
+        nav li {
+            display: inline;
+            margin-right: 10px; /* Reduzi a margem direita */
+        }
 
-    nav li {
-        display: inline;
-        margin-right: 10px; /* Reduzi a margem direita */
-    }
+        .navbar-brand img {
+            max-width: 100%; /* Garante que o logo não ultrapasse a largura da barra */
+            height: auto;
+        }
 
-    .navbar-brand img {
-        max-width: 100%; /* Garante que o logo não ultrapasse a largura da barra */
-        height: auto;
-    }
+        .navbar {
+            padding: 0; /* Removido o espaçamento interno da barra */
+        }
 
-    .navbar {
-        padding: 0; /* Removido o espaçamento interno da barra */
-    }
+        .navbar-toggler {
+            padding: 10px; /* Adicionado espaço interno ao botão de alternância */
+        }
 
-    .navbar-toggler {
-        padding: 10px; /* Adicionado espaço interno ao botão de alternância */
-    }
+        /* Adicionado estilo para o contêiner flexível */
+        .login-register-container {
+            display: flex;
+            align-items: center;
+        }
 
-    /* Adicionado estilo para o contêiner flexível */
-    .login-register-container {
-        display: flex;
-        align-items: center;
-    }
+        .login-register-container button {
+            margin-left: 10px; /* Adicionada margem entre os botões */
+        }
 
-    .login-register-container button {
-        margin-left: 10px; /* Adicionada margem entre os botões */
-    }
-</style>
+        /* Adicionado estilo para esconder os botões quando o usuário está logado */
+        .logged-in .login-register-container {
+            display: none;
+        }
+    </style>
 
 </head>
 
@@ -63,7 +66,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <header>
-      
+
         <nav class="navbar navbar-expand-lg" style="background-color: #33413d;" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="Imagens/RECEITAS DELICIOSAS.png" alt="Receitas Deliciosas" width="400"></a>
@@ -84,15 +87,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="usuario.php">Usuário</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Outros
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Ajuda</a></li>
-                                <li><a class="dropdown-item" href="#">Contate-nos</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Configurações</a></li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="sobrenos.php">Contate-nos</a>
                             </ul>
                         </li>
                     </ul>
@@ -100,14 +96,15 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Pesquisa</button>
                     </form>
-                    <nav class="navbar" style="background-color:#33413d;">
-    <div class="container-fluid justify-content-start">
-        <div class="login-register-container">
-            <button class="btn btn-success me-2"><a href='Login/login.php'>Login</a></button>
-            <button class="btn btn-success me-2"><a href='Login/registrar.php'>Registro</a></button>
-        </div>
-    </div>
-</nav>
+                    <nav class="navbar logged-in" style="background-color:#33413d;">
+                        <div class="container-fluid justify-content-start">
+                            <div class="login-register-container">
+                                <!-- Adicionado a classe "logged-in" ao contêiner -->
+                                <button class="btn btn-success me-2"><a href='Login/login.php'>Login</a></button>
+                                <button class="btn btn-success me-2"><a href='Login/registrar.php'>Registro</a></button>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </nav>
@@ -116,3 +113,4 @@
 </body>
 
 </html>
+
