@@ -1,11 +1,10 @@
 <?php
-    function getconnection(){
-    $dbHost = 'Localhost';
-    $dbUsername = 'receitasdeliciosas';
-    $dbPassword = 'amd123';
- 
+$dsn = "mysql:host=localhost;dbname=receitasdeliciosas";
+$username = "receitasdeliciosas";
+$password = "amd123";
+$pdo = new PDO($dsn, $username, $password);
     
-    $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
+    $conexao = new mysqli($dsn,$username,$password,$dbName);
 
  if($conexao->connect_errno)
  {
