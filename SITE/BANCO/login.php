@@ -43,13 +43,18 @@
     </style>
 </head>
 <body>
-    <a href="home.php">Voltar</a>
-    <div>
+    <a href="../index.php">Voltar</a>
+    <div class="container mt-5">
+    <div class="row justify-content-center">
+    <div class="card-header">Login de Usuário</div>
+    <div class="card-body">
+        <div class="col-md-6">
+            <div class="card">
         <h1>Login</h1>
         <form action="testLogin.php" method="POST">
-            <input type="text" name="email" placeholder="Email">
+        <div class="form-group">   <input type="text" name="email" placeholder="Email"> </div>
             <br><br>
-            <input type="password" name="senha" placeholder="Senha">
+            <div class="form-group">    <input type="password" name="senha" placeholder="Senha"> </div>
             <br><br>
             <input class="inputSubmit" type="submit" name="submit" value="Enviar">
         </form>

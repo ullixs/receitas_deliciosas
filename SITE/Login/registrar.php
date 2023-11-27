@@ -1,33 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Usuário</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+        }
+
+        .container {
+            position: center;
+            margin-top: 50px;
+        }
+
+        .box {
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 40px;
+            border-radius: 15px;
+            color: #fff;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        input {
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .inputSubmit {
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .inputSubmit:hover {
+            background-color: deepskyblue;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .alert {
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header">Registro de Usuário</div>
-                <div class="card-body">
-                    <form method="post">
-                        <div class="form-group">
-                            <label for="user">Usuário:</label>
-                            <input type="text" class="form-control" id="user" name="user" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="pass">Senha:</label>
-                            <input type="password" class="form-control" id="pass" name="pass" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Registrar</button>
-                    </form>
-                </div>
-            </div>
+    <div class="container">
+        <div class="box">
+            <h1>Registro de Usuário</h1>
+            <form action="" method="POST">
+                <input type="text" name="email" placeholder="Email">
+                <br>
+                <input type="password" name="senha" placeholder="Senha">
+                <br>
+                <input class="inputSubmit" type="submit" name="submit" value="Registrar">
+            </form>
             <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                $user = $_POST['user'];
-                $pass = $_POST['pass'];
+                $user = $_POST['email']; // Corrigido para 'email'
+                $pass = $_POST['senha']; // Corrigido para 'senha'
 
                 if (!empty($user) && !empty($pass)) {
                     // Conecta com o banco de dados usando PDO
@@ -43,17 +96,14 @@
                     // Executa a consulta com os valores do formulário
                     $stmt->execute(['email' => $user, 'senha' => $pass]);
 
-                    echo '<div class="alert alert-success mt-3">Usuário registrado com sucesso!</div>';
+                    echo '<div class="alert alert-success message">Usuário registrado com sucesso!</div>';
                 } else {
-                    echo '<div class="alert alert-danger mt-3">Por favor, preencha todos os campos!</div>';
+                    echo '<div class="alert alert-danger message">Por favor, preencha todos os campos!</div>';
                 }
             }
             ?>
         </div>
     </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
