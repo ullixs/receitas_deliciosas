@@ -1,9 +1,9 @@
 <?php
-    function getconnection(){
+
     $dbHost = 'Localhost';
     $dbUsername = 'receitasdeliciosas';
     $dbPassword = 'amd123';
- 
+    $dbName = 'receitasdeliciosas';
     
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 

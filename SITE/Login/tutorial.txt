@@ -5,7 +5,7 @@ placeholder="Digite o seu nome de usuário"
 if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']))
 {
 // acessa
-include_oce('config.php');
+include_once('config.php');
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
