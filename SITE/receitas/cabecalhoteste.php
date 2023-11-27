@@ -100,8 +100,7 @@
                     <nav class="navbar" style="background-color:#33413d;">
     <div class="container-fluid justify-content-start">
         <div class="login-register-container">
-            <button class="btn btn-success me-2"><a href='../Login/login.php'>Login</a></button>
-            <button class="btn btn-success me-2"><a href='../Login/registrar.php'>Registro</a></button>
+
         </div>
     </div>
 </nav>
