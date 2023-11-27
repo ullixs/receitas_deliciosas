@@ -6,7 +6,7 @@
  try{
     $pdo = new PDO($dns, $username, $password);
     return $pdo;
-
+    echo 'conexao sucesso'
  }catch (PDOExpection $e){
     echo 'erro de conexão: ' . $e->getmessage();
  }
