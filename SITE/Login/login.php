@@ -7,27 +7,30 @@
 
     <title>Tela de login</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
             background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
         }
+
         .container {
             position: center;
             margin-top: 50px;
         }
-        .box{
+
+        .box {
             background-color: rgba(0, 0, 0, 0.6);
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%, -50%);
             padding: 80px;
             border-radius: 15px;
             color: #fff;
             width: 80%;
-            max-width: 400px; /* Defina a largura máxima para evitar que ocupe toda a largura da tela */
+            max-width: 400px;
         }
-        input{
+
+        input {
             padding: 15px;
             border: none;
             outline: none;
@@ -35,7 +38,8 @@
             width: 100%;
             margin-bottom: 20px;
         }
-        .inputSubmit{
+
+        .inputSubmit {
             background-color: dodgerblue;
             border: none;
             padding: 15px;
@@ -45,9 +49,11 @@
             width: 100%;
             cursor: pointer;
         }
-        .inputSubmit:hover{
+
+        .inputSubmit:hover {
             background-color: deepskyblue;
         }
+
         .backButton {
             background-color: #555;
             color: white;
@@ -59,6 +65,7 @@
             width: 100%;
             margin-bottom: 20px;
         }
+
         .backButton:hover {
             background-color: #333;
         }
@@ -75,7 +82,8 @@
                 <br><br>
                 <input class="inputSubmit" type="submit" name="submit" value="Enviar">
             </form>
-            <button class="backButton" onclick="window.location.href='../index.php'">voltar para o Inicio</button>
+            <button class="backButton" onclick="window.location.href='registrar.php'">Não tem uma conta? Registre-se</button>
+            <button class="backButton" onclick="window.location.href='../index.php'">Voltar para o Início</button>
         </div>
     </div>
 </body>
