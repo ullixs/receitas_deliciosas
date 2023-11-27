@@ -81,16 +81,8 @@
                       <li class="nav-item">
                         <a class="nav-link" href="../usuario.php">Usuário</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Outros
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Ajuda</a></li>
-                          <li><a class="dropdown-item" href="#">Contate-nos</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Configurações</a></li>
-                        </ul>
+                        <li class="nav-item">
+                        <a class="nav-link" href="sobrenos.php">Contate-nos</a>
                       </li>
                     </ul>
                     <form class="d-flex" role="search">
