@@ -1,18 +1,9 @@
 <?php
-
-    $dbHost = 'Localhost';
-    $dbUsername = 'receitasdeliciosas';
-    $dbPassword = 'amd123';
-    $dbName = 'receitasdeliciosas';
-    
-    $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
-
- if($conexao->connect_errno)
- {
-     echo "Erro";
- }
- else
- {
-     echo "Conexão efetuada com sucesso";
- }
+    function getconnection(){
+    $dns = 'mysql:host=localhost;dbname=receitasdeliciosas'
+    $username = 'receitasdeliciosas';
+    $password = 'amd123';
+ 
+    $pdo = new PDO($dns, $username, $password);
+ 
 ?>
