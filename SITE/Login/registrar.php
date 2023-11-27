@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +26,6 @@
             padding: 80px;
             border-radius: 15px;
             color: #fff;
-      
         }
 
         input {
@@ -65,6 +63,21 @@
             margin: auto;
             margin-top: 20px;
         }
+
+        .backButton {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .backButton:hover {
+            background-color: #333;
+        }
     </style>
 </head>
 <body>
@@ -80,8 +93,8 @@
             </form>
             <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                $user = $_POST['email']; // Corrigido para 'email'
-                $pass = $_POST['senha']; // Corrigido para 'senha'
+                $user = $_POST['email'];
+                $pass = $_POST['senha'];
 
                 if (!empty($user) && !empty($pass)) {
                     // Conecta com o banco de dados usando PDO
@@ -110,6 +123,7 @@
                 }
             }
             ?>
+            <button class="backButton" onclick="window.location.href='../index.php'">voltar para o inicio </button>
         </div>
     </div>
 </body>

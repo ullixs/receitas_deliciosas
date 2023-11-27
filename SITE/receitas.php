@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+// Verificar se o usuário está autenticado
+if (!isset($_SESSION['email']) || !isset($_SESSION['senha'])) {
+    header('Location: login.php');
+    exit;
+}
+
+// Restante do código da página
+// ...
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
