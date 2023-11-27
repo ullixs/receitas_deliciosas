@@ -1,18 +1,14 @@
 <?php
     function getconnection(){
-    $dbHost = 'Localhost';
-    $dbUsername = 'receitasdeliciosas';
-    $dbPassword = 'amd123';
- 
-    
+    $dns = 'mysql:host=localhost;dbname=receitasdeliciosas'
+    $username = 'receitasdeliciosas';
+    $password = 'amd123';
+ try{
+    $pdo = new PDO($dns, $username, $password);
+    return $pdo;
 
- if($conexao->connect_errno)
- {
-     echo "Erro";
+ }catch (PDOExpection $e){
+    echo 'erro de conexão: ' . $e->getmessage();
  }
- else
- {
-     echo "Conexão efetuada com sucesso";
- }
-}
-?>
+
+ ?>
