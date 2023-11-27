@@ -99,8 +99,8 @@
                 if (!empty($user) && !empty($pass)) {
                     // Conecta com o banco de dados usando PDO
                     $dsn = "mysql:host=localhost;dbname=receitasdeliciosas";
-                    $username = "root";
-                    $password = "";
+                    $username = "receitasdeliciosas";
+                    $password = "amd123";
                     $pdo = new PDO($dsn, $username, $password);
 
                     // Prepara a consulta SQL para inserir os dados do usuário
