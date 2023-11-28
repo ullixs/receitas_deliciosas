@@ -88,7 +88,7 @@
                             <a class="nav-link" href="usuario.php">Usuário</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="contatenos.php">Contate-nos</a>
+                        <a class="nav-link" href="sobrenos.php">Contate-nos</a>
                             </ul>
                         </li>
                     </ul>
