@@ -114,11 +114,12 @@
 
                     // Adiciona script JavaScript para redirecionamento após 3 segundos
                     echo '<script>
-                            setTimeout(function(){
+                            setTimeout(function() {
                                 window.location.href = "login.php";
                             }, 3000);
-                          </script>';
-                } else {
+                        </script>';
+                }
+                else {
                     echo '<div class="alert alert-danger message">Por favor, preencha todos os campos!</div>';
                 }
             }
