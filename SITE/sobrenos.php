@@ -51,9 +51,7 @@
             </div>
         </div>
 
-        <div class="back-link">
-            <a href="javascript: history.go(-1)"> <- VOLTAR</a>
-        </div>
+ 
     </div>
 
     <?php include 'footer.php'; ?>
