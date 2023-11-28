@@ -10,7 +10,6 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['senha'])) {
 
 ?>
 
-?>
 <!DOCTYPE html>
 
 <html lang="pt-br">
