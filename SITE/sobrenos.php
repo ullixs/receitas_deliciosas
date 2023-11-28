@@ -82,21 +82,21 @@
 
     <div class="content">
         <h1>Receitas Deliciosas</h1>
-<br>
+<br><br>
         <div class="section">
             <h2>Objetivo do Projeto</h2>
             <p>Explore novas receitas, aprimore suas habilidades na cozinha e compartilhe suas próprias criações.
                 Os usuários podem criar perfis, adicionar receitas e interagir com outras pessoas por meio de comentários.
             </p>
         </div>
-
+<br>
         <div class="section">
             <h2>Público Alvo</h2>
             <p>Destinado a pessoas interessadas em aprender a cozinhar, incluindo estudantes, jovens adultos que moram
                 sozinhos, pais e qualquer um que queira experimentar receitas caseiras.
             </p>
         </div>
-
+<br>
         <div class="section">
             <h2>Conheça a Equipe</h2>
             <div class="team-buttons">
@@ -104,7 +104,7 @@
                 <button onclick="window.location.href='CurriculoMatheus.php'" class="btn">Matheus Rocha</button>
             </div>
         </div>
-
+<br>
         <div class="section">
             <h2>Entre em Contato</h2>
             <p>Estamos sempre abertos para receber suas perguntas, sugestões e feedback. Entre em contato conosco pelo e-mail:</p>
