@@ -79,7 +79,7 @@
                         <a class="nav-link" href="../sobrenos.php">Sobre nós</a>
                       </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="sobrenos.php">Contate-nos</a>
+                        <a class="nav-link" href="../sobrenos.php">Contate-nos</a>
                       </li>
                     </ul>
                     <form class="d-flex" role="search">
