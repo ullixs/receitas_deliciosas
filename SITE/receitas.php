@@ -43,7 +43,7 @@
             foreach ($receitas as $receita) {
                 echo '<div class="col-md-4">';
                 echo '<a href="' . $receita[2] . '" class="recipe-link">';
-                echo '<img src="' . $receita[1] . '" alt="' . $receita[0] . '" class="recipe-image">';
+                echo '<img src="' . $receita[1] . '" alt="' . $receita[0] . '" class="recipe-image">'; 
                 echo '<div class="recipe-name">' . $receita[0] . '</div>';
                 echo '</a>';
                 echo '</div>';
