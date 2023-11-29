@@ -32,10 +32,10 @@
             <?php
             // Exemplo com duas receitas, adicione conforme necessário
             $receitas = array(
-                array('Lasanha de Miojo', '/imagens/lasanha.png', 'receitas/lasanha.php'),
-                array('Peito de Frango com Molho', '/imagens/frango.png', 'receitas/frangomolho.php'),
-                array('Cheesecake', '/imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
-                array('Estrogonofe de Camarão', '/imagens/estrogonof.png', 'receitas/Estrogonofecamarao.php'),
+                array('Lasanha de Miojo', 'imagens/lasanha.png', 'receitas/lasanha.php'),
+                array('Peito de Frango com Molho', 'imagens/frango.png', 'receitas/frangomolho.php'),
+                array('Cheesecake', 'imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
+                array('Estrogonofe de Camarão', 'imagens/estrogonof.png', 'receitas/Estrogonofecamarao.php'),
                 array('Batatas Recheadas ', 'imagens/batata.png', 'receitas/batataseecheadas.php'),
                 array('Nutella Caseira', 'imagens/nutela.jpg', 'receitas/NutellaCaseira.php'),
             );
