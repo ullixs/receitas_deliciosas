@@ -1,11 +1,11 @@
 <?php
-//session_start();
+session_start();
 
 // Verificar se o usuário está autenticado
-//if (!isset($_SESSION['email']) || !isset($_SESSION['senha'])) {
-  //  header('Location: ./Login/login.php');
-   // exit;
-//}
+if (!isset($_SESSION['email']) || !isset($_SESSION['senha'])) {
+  header('Location: ./Login/login.php');
+ exit;
+}
 
 
 ?>
