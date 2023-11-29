@@ -19,6 +19,7 @@
                 <p>Uma lasanha de carne incrível.</p>
                 <b><a href="../SITE/receitas/lasanha.php">Ver Receita</a></b>
             </div>
+            
             <!-- Adicione mais receitas em destaque aqui -->
         </section>
     </main>
