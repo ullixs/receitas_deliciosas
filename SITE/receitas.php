@@ -32,10 +32,12 @@
             <?php
             // Exemplo com duas receitas, adicione conforme necessário
             $receitas = array(
-                array('Lasanha de Miojo', 'imagens/lasanha.png', 'receitas/lasanha.php'),
-                array('Peito de Frango com Molho', 'imagens/frango.png', 'receitas/frangomolho.php'),
-                array('Cheesecake', 'imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
-                // Adicione mais receitas conforme necessário
+                array('Lasanha de Miojo', '/imagens/lasanha.png', 'receitas/lasanha.php'),
+                array('Peito de Frango com Molho', '/imagens/frango.png', 'receitas/frangomolho.php'),
+                array('Cheesecake', '/imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
+                array('Estrogonofe de Camarão', '/imagens/estrogonof.png', 'receitas/Estrogonofecamarao.php'),
+                array('Nova Receita 2', '/imagens/nova2.jpg', 'receitas/nova2.php'),
+                array('Nova Receita 3', '/imagens/estrogonof', 'receitas/nova3.php'),
             );
 
             foreach ($receitas as $receita) {
