@@ -36,8 +36,8 @@
                 array('Peito de Frango com Molho', '/imagens/frango.png', 'receitas/frangomolho.php'),
                 array('Cheesecake', '/imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
                 array('Estrogonofe de Camarão', '/imagens/estrogonof.png', 'receitas/Estrogonofecamarao.php'),
-                array('Nova Receita 2', '/imagens/nova2.jpg', 'receitas/nova2.php'),
-                array('Nova Receita 3', '/imagens/estrogonof', 'receitas/nova3.php'),
+                array('Batatas Recheadas ', '/imagens/nova2.jpg', 'receitas/nova2.php'),
+                array('Nutella Caseira', '/imagens/nutela.jpg', 'receitas/NutellaCaseira.php'),
             );
 
             foreach ($receitas as $receita) {
