@@ -8,14 +8,14 @@
         <section id="receitas" class="featured-recipes">
             <h2>Receitas em Destaque</h2>
             <div class="recipe">
-                <img src="Imagens/pizza.jpg" alt="Pizza">
-                <h3>Pizza Caseira</h3>
-                <p>Uma receita deliciosa de pizza caseira.</p>
-                <b><a href="pizza.html">Ver Receita</a></b>
+                <img src="Imagens/nutela1.jpg" alt="Pizza">
+                <h3>Nutela Caseita</h3>
+                <p>Uma receita deliciosa de nutela caseira.</p>
+                <b><a href="../SITE/receitas/NutellaCaseira.php">Ver Receita</a></b>
             </div>
             <div class="recipe">
                 <img src="Imagens/lasanha.jpg" alt="Lasanha">
-                <h3>Lasanha de Carne</h3>
+                <h3>Lasanha de Miojo</h3>
                 <p>Uma lasanha de carne incrível.</p>
                 <b><a href="../SITE/receitas/lasanha.php">Ver Receita</a></b>
             </div>
