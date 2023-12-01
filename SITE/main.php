@@ -9,18 +9,17 @@
             <h2>Receitas em Destaque</h2>
             <div class="recipe">
                 <img src="Imagens/nutela1.jpg" alt="Pizza">
-                <h3>Nutela Caseita</h3>
+                <h3>Nutela Caseira</h3>
                 <p>Uma receita deliciosa de nutela caseira.</p>
                 <b><a href="../SITE/receitas/NutellaCaseira.php">Ver Receita</a></b>
             </div>
             <div class="recipe">
                 <img src="Imagens/lasanha.jpg" alt="Lasanha">
                 <h3>Lasanha de Miojo</h3>
-                <p>Uma lasanha de carne incrível.</p>
-                <b><a href="../SITE/receitas/lasanha.php">Ver Receita</a></b>
-            </div>
-            
-            <!-- Adicione mais receitas em destaque aqui -->
+		<p>Uma lasanha de carne incrível.</p>
+
+         <b><a href="../SITE/receitas/Lasanha.php">Ver Receita</a></b>
+	    <!-- Adicione mais receitas em destaque aqui -->
+</div>
         </section>
     </main>
-

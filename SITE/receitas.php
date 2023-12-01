@@ -32,12 +32,12 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['senha'])) {
             <?php
             // Exemplo com duas receitas, adicione conforme necessário
             $receitas = array(
-                array('Lasanha de Miojo', 'imagens/lasanha.png', 'receitas/lasanha.php'),
-                array('Peito de Frango com Molho', 'imagens/frango.png', 'receitas/frangomolho.php'),
-                array('Cheesecake', 'imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
-                array('Estrogonofe de Camarão', 'imagens/estrogonof.png', 'receitas/Estrogonofecamarao.php'),
-                array('Batatas Recheadas ', 'imagens/batata.png', 'receitas/batataseecheadas.php'),
-                array('Nutella Caseira', 'imagens/nutela.png', 'receitas/NutellaCaseira.php'),
+                array('Lasanha de Miojo', 'Imagens/lasanha.png', 'receitas/lasanha.php'),
+                array('Peito de Frango com Molho', 'Imagens/frango.png', 'receitas/frangomolho.php'),
+                array('Cheesecake', 'Imagens/cheesecake.jpg', 'receitas/CheeseCake.php'),
+                array('Estrogonofe de Camarão', 'Imagens/estrogonof.png', 'receitas/Estrogonofecamarao.php'),
+                array('Batatas Recheadas ', 'Imagens/batata.png', 'receitas/batataseecheadas.php'),
+                array('Nutella Caseira', 'Imagens/nutela.png', 'receitas/NutellaCaseira.php'),
             );
 
             foreach ($receitas as $receita) {
